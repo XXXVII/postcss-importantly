@@ -1,6 +1,6 @@
 {
   "name": "postcss-importantly",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "PostCSS plugin to add !important for every declaration.",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/XXXVII/postcss-importantly/issues"
   },
   "homepage": "https://github.com/XXXVII/postcss-importantly",
-  "devDependencies": {
+  "dependencies": {
     "postcss": "^4.1.13"
   }
 }
