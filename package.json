@@ -1,0 +1,25 @@
+{
+  "name": "postcss-importantly",
+  "version": "0.0.3",
+  "description": "PostCSS plugin to add !important for every declaration.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XXXVII/postcss-importantly.git"
+  },
+  "keywords": [
+    "postcss",
+    "plugin",
+    "important",
+    "!important"
+  ],
+  "author": "Igor Vechkanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XXXVII/postcss-importantly/issues"
+  },
+  "homepage": "https://github.com/XXXVII/postcss-importantly",
+  "devDependencies": {
+    "postcss": "^4.1.13"
+  }
+}
