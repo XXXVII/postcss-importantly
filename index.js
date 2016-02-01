@@ -7,7 +7,7 @@ module.exports = postcss.plugin("postcss-importantly", function() {
     var root;
     root = postcss.parse(style);
     root.walkRules(function(rule) {
-      if (rule.parent.type === 'atrule') {
+      if (rule.parent.type === 'atrule' && rule.parent.name !== 'media') {
         return;
       }
       return rule.every(function(decl) {
