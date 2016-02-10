@@ -10,7 +10,7 @@ module.exports = postcss.plugin("postcss-importantly", function() {
       if (rule.parent.type === 'atrule' && rule.parent.name !== 'media') {
         return;
       }
-      return rule.every(function(decl) {
+      return rule.each(function(decl) {
         if (!decl.value || decl.important) {
           return;
         }

@@ -6,7 +6,7 @@ module.exports = postcss.plugin "postcss-importantly", ->
 
     root.walkRules (rule) ->
       return if rule.parent.type == 'atrule' and rule.parent.name != 'media' #breakpoints inside keyframes
-      rule.every (decl) ->
+      rule.each (decl) ->
         return if  !decl.value || decl.important
         decl.value += '!important'
     result.root = root
